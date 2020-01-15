@@ -1,0 +1,239 @@
+body {
+	/* background-image: url("background_blur.jpg"); */
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #EFFFFB;
+}
+p {
+	margin: 0;
+}
+input[type=text] {
+    border-radius: 0;
+	background-color: transparent;
+	color: white;
+	width: 98%;
+	padding: 12px 20px;
+	margin: 8px 0;
+    box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #99621E;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+input[type=password] {
+    border-radius: 0;
+	background-color: transparent;
+	color: white;
+	width: 98%;
+	padding: 12px 20px;
+	margin: 8px 0;
+    box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #99621E;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+input[type=text]:hover {
+	padding: 16px 24px;
+	border-bottom: 3px solid #99621E;
+}
+input[type=password]:hover {
+	padding: 16px 24px;
+	border-bottom: 3px solid #99621E;
+}
+input[type=text]:focus {
+	padding: 16px 24px;
+	border-bottom: 3px solid #99621E;
+}
+input[type=password]:focus {
+	padding: 16px 24px;
+	border-bottom: 3px solid #99621E;
+}
+.centered {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.dashboard {
+	text-align: center;
+}
+.dashboardItem {
+	background-color: #739E82;
+	margin: 0;
+}
+.dashboardText {
+	background-color: #739E82;
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.DashboardItems {
+	margin: 8px;
+}
+.noBackgroundText {
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.undoText {
+	background-color: #D38B5D;
+	border: none;
+	color: #2C5530;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.headerText {
+	background-color: #739E82;
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.blockText {
+	margin: 8px;
+	background-color: #739E82;
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.button {
+	background-color: #739E82;
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.button:hover {
+	padding: 20px 36px;
+	background-color: #2C5530;
+}
+.selectedButton {
+	background-color: #739E82;
+	border: none;
+	border-bottom: 4px solid #2C5530;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.selectedButton:hover {
+	padding: 20px 36px;
+	background-color: #2C5530;
+}
+.undoButton {
+	background-color: #D38B5D;
+	border: none;
+	color: #2C5530;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.undoButton:hover {
+	padding: 20px 36px;
+	background-color: #F3FFB6;
+}
+.LoginRegisterAlternate {
+	margin: 0;
+	background-color: #739E82;
+	position: sticky;
+	top: 0;
+}
+.GreenBox {
+	margin: 0;
+	background-color: #739E82;
+}
+.BlackBox {
+	margin: 0;
+	background-color: rgba(0,0,0,0.65);
+}
+.BlackBoxQuestions {
+	margin: 8px;
+	background-color: rgba(0,0,0,0.5);
+}
+.UndoQuizDelete {
+	margin: 8px;
+	background-color: #D38B5D;
+}
+.quizAnswer {
+	margin: 4px;
+	background-color: #739E82;
+	border: none;
+	color: #F3FFB6;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: padding 0.5s;
+	font-family: Antic;
+}
+.quizAnswer:hover {
+	padding: 20px 36px;
+	background-color: #2C5530;
+}
+.quizAnswer:focus {
+	padding: 20px 36px;
+	background-color: #2C5530;
+}
+.pMargin {
+	margin: 8px;
+}
+.logo {
+	animation-name: logo;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+@keyframes logo {
+	0% {width: 60%; transform: rotate(-2deg);}
+	100% {width: 65%; transform: rotate(2deg)}
+}
